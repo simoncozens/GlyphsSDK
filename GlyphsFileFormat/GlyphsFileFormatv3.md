@@ -227,6 +227,7 @@ The property list file contains a dictionary with the following structure.
     * linkStyle `string`: The linked style name
     * manualInterpolation `bool`: If set, use the `instanceInterpolations`, otherwise calculate from `axisValues`. Always set to `1`, otherwise omit the key.
     * name `string`: The style name.
+    * type `string`: `variable` for a variable font export, otherwise omitted.
     * properties: `list>dict`: see [Properties](#properties)
     * userData `dict`: to store custom data. Only `string`, `int`, `float`, `array`, `dict` and `date` data is allowed.
     * weightClass `string`:
